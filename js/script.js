@@ -10,6 +10,5 @@ function formSubmit() {
 // This is the data from the form
 function formData() {
 	document.getElementById("form_main").focus().submit();
-
 }
 
