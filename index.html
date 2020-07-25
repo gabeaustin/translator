@@ -9,21 +9,30 @@
 		<h3>This is a translator site that will help those who are learning Spanish. This can also help those who will be traveling to a Spanish-speaking country.</h3>
 		<h3>Enjoy or should I say ¡disfrute!</h3>
 
-		<form action="" method="post" id="form_main">
-			<label for="english_word">English</label>
-			<input type="text" id="english_word" name="english_word" value="Enter English word">
+		<div id="container">
+			<form action="" method="post" id="form_main">
 
-			<br>
+				<h1>Translate</h1>
 
-			<label for="spanish_word">Spanish</label>
-			<input type="text" id="spanish_word" name="spanish_word" value="Spanish translation">
+				<small></small>
 
-			<br><br>
+				<label for="english_word">English</label>
+				<input type="text" id="english_word" name="english_word" placeholder="Enter English word">
 
-			<button type="submit" onclick="formSubmit()">Submit / Enviar</button>
-		</form>
+				<small></small>
 
-		<script src="js/script.js"></script>
+				<br>
+
+				<label for="spanish_word">Spanish</label>
+				<input type="text" id="spanish_word" name="spanish_word" placeholder="Spanish translation">
+
+				<br><br>
+
+				<button type="submit" onclick="formSubmit()">Submit / Enviar</button>
+			</form>
+		</div>
+
+		<script src="js/form.js"></script>
 
 	</body>
 </html>
